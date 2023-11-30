@@ -9,4 +9,8 @@ class MainController extends Controller
     function form(){
         return view('main');
     }
+
+    public function meta_data(){
+        return view('meta_data');
+    }
 }

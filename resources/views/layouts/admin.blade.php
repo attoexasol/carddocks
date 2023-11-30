@@ -183,6 +183,12 @@
                             <ul class="navbar-nav" id="navbar-nav">
 
                                 <li class="nav-item">
+                                    <a class="nav-link menu-link" href="{{ route('meta_data') }}">
+                                        <i class="ri-honour-line"></i> <span data-key="t-widgets">Meta Data</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
                                     <a class="nav-link menu-link" href="widgets.html">
                                         <i class="ri-honour-line"></i> <span data-key="t-widgets">New</span>
                                     </a>
